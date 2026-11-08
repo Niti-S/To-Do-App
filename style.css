@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(252, 231, 239);
+}
+
+#mainHeading {
+  font-family:cursive;
+  text-align: center;
+  color: rgb(52, 2, 117);
+  background-color: rgb(248, 215, 227);
+  width: 100%;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 650px 475px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+  font-size: 19px;
+  font-family: cursive;
+}
+#idInput, #dateType {
+  font-size: 15px;
+  padding: 10px 5px;
+}
+.addButton {
+  font-size: 16px;
+  background-color: rgb(250, 222, 121);
+  color: rgb(52, 2, 117);
+  font-family: cursive;
+  font-weight: 600;
+  border: none;
+  border-radius: 15%;
+  padding: 16px 0px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.addButton:active{
+  transform: scale(0.96);
+}
+
+.deleteButton {
+  font-size: 16px;
+  background-color: rgb(212, 246, 255);
+  color: rgb(52, 2, 117);
+  font-family: cursive;
+  font-weight: 600;
+  border: none;
+  border-radius: 15%;
+  padding: 16px 0px;
+  cursor: pointer;
+}
